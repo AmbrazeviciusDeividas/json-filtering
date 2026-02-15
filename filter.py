@@ -5,7 +5,7 @@ import sys
 from typing import Any, Dict, Iterable, Tuple
 
 def record_matches(rec: Dict[str, Any]) -> bool:
-    t = rec.get("Match any field which have strin... (just add the field for example 't')")
+    t = rec.get("[ Match any field which have strin... (just add the field for example 't') ]")
     if isinstance(t, str) and "strin..." in t:
         return True
 
